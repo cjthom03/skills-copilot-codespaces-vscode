@@ -22,5 +22,6 @@ app.get('/comments', (req, res) => {
 
 app.post('/comments', (req, res) => {
   const newComment = {
-    id: comments.length + 1,
-
+    id: comments.length + 1
+  }
+});
